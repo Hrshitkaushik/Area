@@ -1,0 +1,39 @@
+AREA  OF  SQUARE 
+#include<stdio.h>
+int main()
+{
+     // declare variables
+     float b, h, area;
+
+     // take inputs
+     printf("Enter base and height (in cm): ");
+     scanf("%f %f", &b, &h);
+
+     // calculate area
+     area = (0.5 * b * h);
+
+     // display result
+     printf("Area of triangle= %.2f cm\n",area );
+     
+     return 0;
+}
+
+AREA  OF  RECTANGLE 
+#include<stdio.h>
+int main() 
+{ 
+     // declare variables 
+     float len, wid, area; 
+     
+     // take inputs
+     printf("Enter length & width of Rectangle (in cm): ");
+     scanf("%f %f",&len,&wid);
+     
+     // calculate area 
+     area = len * wid;
+     
+     // display result 
+     printf("Area of Rectangle= %.3f cm\n",area); 
+     
+     return 0;
+}
